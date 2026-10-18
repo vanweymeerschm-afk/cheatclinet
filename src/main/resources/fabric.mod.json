@@ -1,0 +1,18 @@
+{
+  "schemaVersion": 1,
+  "id": "marthox_pvp_client",
+  "version": "${version}",
+  "name": "Marthox PvP Client",
+  "description": "Client-side HUD and visible-world utility toggles.",
+  "authors": ["Marthox"],
+  "environment": "client",
+  "entrypoints": {
+    "client": ["dev.marthox.client.MarthoxClient"]
+  },
+  "depends": {
+    "fabricloader": ">=0.16.0",
+    "minecraft": "~1.21.11",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
